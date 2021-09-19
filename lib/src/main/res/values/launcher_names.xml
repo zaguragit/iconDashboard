@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources translatable="false">
+    <string name="posidonLauncher">posidon</string>
+    <string name="lawnchairLauncher">Lawnchair</string>
+    <string name="niagaraLauncher">Niagara</string>
+</resources>

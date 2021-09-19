@@ -1,0 +1,8 @@
+<resources>
+    <string name="list">list</string>
+    <string name="github">github</string>
+
+    <string name="apply">Apply</string>
+    <string name="search_icons">Search icons</string>
+    <string name="not_installed">Not installed</string>
+</resources>

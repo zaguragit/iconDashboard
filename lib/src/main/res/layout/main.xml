@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="256dp"
+            android:text="@string/app_name"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:textSize="42sp"
+            android:layout_marginBottom="16dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="12dp">
+            <TextView
+                android:onClick="list"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                android:text="@string/list"
+                android:background="@drawable/button_bg_round"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"/>
+            <TextView
+                android:onClick="github"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                android:text="@string/github"
+                android:background="@drawable/button_bg_round"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"/>
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:text="@string/apply"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:textSize="26sp"/>
+        <LinearLayout
+            android:onClick="applyPosidon"
+            style="@style/applycard">
+            <ImageView style="@style/applycard_icon" android:src="@drawable/posidon_launcher"/>
+            <TextView style="@style/applycard_label" android:text="@string/posidonLauncher"/>
+        </LinearLayout>
+        <LinearLayout
+            android:onClick="applyLawnchair"
+            style="@style/applycard">
+            <ImageView style="@style/applycard_icon" android:src="@drawable/lawnchair_launcher"/>
+            <TextView style="@style/applycard_label" android:text="@string/lawnchairLauncher"/>
+        </LinearLayout>
+        <LinearLayout
+            android:onClick="applyNiagara"
+            style="@style/applycard">
+            <ImageView style="@style/applycard_icon" android:src="@drawable/niagara_launcher"/>
+            <TextView style="@style/applycard_label" android:text="@string/niagaraLauncher"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
